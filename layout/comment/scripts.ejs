@@ -8,6 +8,8 @@
     <%- partial('comment/facebook', { script: true }) %>
 <% } else if (theme.comment.isso) { %>
     <%- partial('comment/isso', { script: true }) %>
+<% } else if (theme.comment.graphcomment) { %>
+    <%- partial('comment/graphcomment', { script: true }) %>
 <% } else if (theme.comment.changyan && theme.comment.changyan.appid && theme.comment.changyan.conf) { %>
     <%- partial('comment/changyan', { script: true }) %>
 <% } else if (theme.comment.gitment &&

@@ -13,5 +13,7 @@
         <a href="<%= post.permalink %>#comments" id="sourceId::<%= post.path %>" class="article-comment-link cy_cmt_count"><%= __('article.comments') %></a>
     <% } else if (theme.comment.livere) { %>
         <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
+    <% } else if (theme.comment.graphcomment) { %>
+        <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
     <% } %>
 <% } %>

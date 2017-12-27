@@ -23,5 +23,7 @@
         theme.comment.gitment.client_id &&
         theme.comment.gitment.client_secret) { %>
         <section id="comments"><%- partial('comment/gitment') %></section>
+    <% } else if (theme.comment.graphcomment { %>
+        <section id="comments"><%- partial('comment/graphcomment') %></section>
     <% } %>
 <% } %>

@@ -50,6 +50,7 @@ search:
 
 # Comment
 comment:
+    graphcomment: # enter graphcomment id here
     disqus:  # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
