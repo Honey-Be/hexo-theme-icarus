@@ -2,8 +2,7 @@
 <div id="graphcomment"></div>
 <script type="text/javascript">
     /* - - - CONFIGURATION VARIABLES: MAKE SURE THE ID IS YOURS - - - */
-    /* window.graphcomment_id = '<%= theme.comment.graphcomment %>'; */
-    document.querySelectorAll('section#comments')[0].graphcomment_id = '<%= theme.comment.graphcomment %>';
+    window.graphcomment_id = '<%= theme.comment.graphcomment %>';
     /* - - - DON'T EDIT BELOW THIS LINE - - - */
     (function() {
         var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
@@ -12,7 +11,7 @@
     })();
 </script>
 <% } else { %>
-    <div id="graphcomment_thread">
+    <div id="graphcomment">
         <noscript>Please enable JavaScript to view the <a href="//graphcomment.com">comments powered by Graphcomment.</a></noscript>
     </div>
 <% } %>
