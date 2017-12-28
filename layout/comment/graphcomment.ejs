@@ -1,4 +1,5 @@
 <% if (typeof(script) !== 'undefined' && script) { %>
+<div id="graphcomment"></div>
 <script type="text/javascript">
     /* - - - CONFIGURATION VARIABLES: MAKE SURE THE ID IS YOURS - - - */
     window.graphcomment_id = '<%= theme.comment.graphcomment %>';
@@ -10,5 +11,7 @@
     })();
 </script>
 <% } else { %>
-    <div id="graphcomment"></div>
+    <div id="graphcomment_thread">
+        <noscript>Please enable JavaScript to view the <a href="//graphcomment.com">comments powered by Graphcomment.</a></noscript>
+    </div>
 <% } %>
