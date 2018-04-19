@@ -50,7 +50,7 @@ search:
 
 # Comment
 comment:
-    graphcomment: personal_blog
+    graphcomment: project-galilee
 
 # Share
 share: default # options: jiathis, bdshare, addtoany, default
