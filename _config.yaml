@@ -43,7 +43,7 @@ search:
 
 # Comment
 comment:
-    graphcomment: project-galilee
+    discourse: http://35.190.225.143/
 
 # Share
 share: default # options: jiathis, bdshare, addtoany, default
