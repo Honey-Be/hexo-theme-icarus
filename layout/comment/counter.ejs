@@ -15,5 +15,7 @@
         <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
     <% } else if (theme.comment.graphcomment) { %>
         <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
+    <% } else if (theme.comment.discourse) { %>
+        <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('article.comments') %></a>
     <% } %>
 <% } %>

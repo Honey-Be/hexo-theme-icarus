@@ -25,5 +25,7 @@
         <section id="comments"><%- partial('comment/gitment') %></section>
     <% } else if (theme.comment.graphcomment) { %>
         <section id="comments"><%- partial('comment/graphcomment') %></section>
+    <% } else if (theme.comment.discourse) { %>
+        <section id="comments"><%- partial('comment/discourse') %></section>
     <% } %>
 <% } %>
